@@ -131,16 +131,89 @@
             </div>
         </section>
         <section>
-            <h3 style="color:#1a237e; font-size:1.2em; font-weight:600; margin-bottom:1.2em; display:flex; align-items:center; gap:0.5em;"><span style="font-size:1.3em;">🗂️</span> Data Previews</h3>
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px,1fr)); gap:1.1em;">
-                <a class="page-link file-preview-link preview-btn" style="background:#f8fafc; box-shadow:0 2px 12px rgba(26,35,126,0.04); display:flex; align-items:center; gap:0.7em; min-width:180px; padding:1.2em 2em; justify-content:center; font-size:1.08em; font-weight:500;" href="#" data-file="Balance_Sheet.csv"><span style="font-size:1.2em;">🟦</span> Balance_Sheet.csv</a>
-                <a class="page-link file-preview-link preview-btn" style="background:#f8fafc; box-shadow:0 2px 12px rgba(26,35,126,0.04); display:flex; align-items:center; gap:0.7em; min-width:180px; padding:1.2em 2em; justify-content:center; font-size:1.08em; font-weight:500;" href="#" data-file="Cash_Flow_Statement.csv"><span style="font-size:1.2em;">🟩</span> Cash_Flow_Statement.csv</a>
-                <a class="page-link file-preview-link preview-btn" style="background:#f8fafc; box-shadow:0 2px 12px rgba(26,35,126,0.04); display:flex; align-items:center; gap:0.7em; min-width:180px; padding:1.2em 2em; justify-content:center; font-size:1.08em; font-weight:500;" href="#" data-file="Income_Statement.csv"><span style="font-size:1.2em;">🟨</span> Income_Statement.csv</a>
-                <a class="page-link file-preview-link preview-btn" style="background:#f8fafc; box-shadow:0 2px 12px rgba(26,35,126,0.04); display:flex; align-items:center; gap:0.7em; min-width:180px; padding:1.2em 2em; justify-content:center; font-size:1.08em; font-weight:500;" href="#" data-file="TB2024_structured.csv"><span style="font-size:1.2em;">🟧</span> TB2024_structured.csv</a>
-                <a class="page-link file-preview-link preview-btn" style="background:#f8fafc; box-shadow:0 2px 12px rgba(26,35,126,0.04); display:flex; align-items:center; gap:0.7em; min-width:180px; padding:1.2em 2em; justify-content:center; font-size:1.08em; font-weight:500;" href="#" data-file="TB2024_structured_corrected.csv"><span style="font-size:1.2em;">🟫</span> TB2024_structured_corrected.csv</a>
-                <a class="page-link file-preview-link preview-btn" style="background:#f8fafc; box-shadow:0 2px 12px rgba(26,35,126,0.04); display:flex; align-items:center; gap:0.7em; min-width:180px; padding:1.2em 2em; justify-content:center; font-size:1.08em; font-weight:500;" href="#" data-file="TB 2024.xlsx"><span style="font-size:1.2em;">🟪</span> TB 2024.xlsx</a>
+            <h3 style="color:#1a237e; font-size:1.25em; font-weight:700; margin-bottom:1.2em; display:flex; align-items:center; gap:0.6em;">
+                <span style="font-size:1.6em;">📁</span> Data Previews
+            </h3>
+            <div class="data-preview-grid">
+                <a class="data-preview-card file-preview-link" href="#" data-file="Balance_Sheet.csv">
+                    <span class="dp-icon" style="background:#3b6cb7;"> <svg width="28" height="28" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#3b6cb7"/></svg> </span>
+                    <span class="dp-label">Balance_Sheet.csv</span>
+                </a>
+                <a class="data-preview-card file-preview-link" href="#" data-file="Cash_Flow_Statement.csv">
+                    <span class="dp-icon" style="background:#43a047;"> <svg width="28" height="28" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#43a047"/></svg> </span>
+                    <span class="dp-label">Cash_Flow_Statement.csv</span>
+                </a>
+                <a class="data-preview-card file-preview-link" href="#" data-file="Income_Statement.csv">
+                    <span class="dp-icon" style="background:#fbc02d;"> <svg width="28" height="28" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#fbc02d"/></svg> </span>
+                    <span class="dp-label">Income_Statement.csv</span>
+                </a>
+                <a class="data-preview-card file-preview-link" href="#" data-file="TB2024_structured.csv">
+                    <span class="dp-icon" style="background:#fb8c00;"> <svg width="28" height="28" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#fb8c00"/></svg> </span>
+                    <span class="dp-label">TB2024_structured.csv</span>
+                </a>
+                <a class="data-preview-card file-preview-link" href="#" data-file="TB2024_structured_corrected.csv">
+                    <span class="dp-icon" style="background:#6d4c41;"> <svg width="28" height="28" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#6d4c41"/></svg> </span>
+                    <span class="dp-label">TB2024_structured_corrected.csv</span>
+                </a>
+                <a class="data-preview-card file-preview-link" href="#" data-file="TB 2024.xlsx">
+                    <span class="dp-icon" style="background:#8e24aa;"> <svg width="28" height="28" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#8e24aa"/></svg> </span>
+                    <span class="dp-label">TB 2024.xlsx</span>
+                </a>
             </div>
         </section>
+        <style>
+        .data-preview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.2em;
+            margin-top: 0.5em;
+        }
+        .data-preview-card {
+            background: #f8fafc;
+            border-radius: 13px;
+            box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            padding: 1.3em 2em;
+            min-width: 220px;
+            font-size: 1.12em;
+            font-weight: 500;
+            color: #1a237e;
+            text-decoration: none;
+            transition: box-shadow 0.18s, background 0.18s;
+        }
+        .data-preview-card:hover {
+            box-shadow: 0 6px 28px rgba(26,35,126,0.13);
+            background: #e8eaf6;
+        }
+        .dp-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            width: 38px;
+            height: 38px;
+            margin-right: 0.5em;
+        }
+        .dp-label {
+            flex: 1;
+            font-size: 1.08em;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        @media (max-width: 600px) {
+            .data-preview-grid {
+                grid-template-columns: 1fr;
+            }
+            .data-preview-card {
+                padding: 1.1em 1em;
+                font-size: 1em;
+            }
+        }
+        </style>
     </main>
 
 
