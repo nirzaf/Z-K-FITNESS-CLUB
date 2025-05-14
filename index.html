@@ -74,6 +74,42 @@
     </style>
 </head>
 <body>
+    <div id="passwordOverlay" style="position:fixed;z-index:2000;left:0;top:0;width:100vw;height:100vh;background:rgba(26,35,126,0.92);display:flex;align-items:center;justify-content:center;">
+        <form id="passwordForm" style="background:#fff;padding:2.5em 2em 2em 2em;border-radius:14px;box-shadow:0 8px 32px rgba(26,35,126,0.22);max-width:90vw;width:350px;display:flex;flex-direction:column;align-items:center;">
+            <h2 style="color:#1a237e;margin-bottom:1.2em;">Enter Password</h2>
+            <input id="passwordInput" type="password" placeholder="Password" style="padding:0.8em 1em;font-size:1.1em;border-radius:8px;border:1px solid #bdbdbd;width:100%;margin-bottom:1.1em;outline:none;" autofocus required />
+            <button type="submit" style="background:#1a237e;color:#fff;border:none;border-radius:8px;padding:0.7em 1.2em;font-size:1.1em;cursor:pointer;width:100%;">Access</button>
+            <div id="passwordError" style="color:#c62828;font-size:1em;margin-top:0.8em;display:none;">Incorrect password. Try again.</div>
+        </form>
+    </div>
+    <script>
+    // Password protection logic
+    const overlay = document.getElementById('passwordOverlay');
+    const form = document.getElementById('passwordForm');
+    const input = document.getElementById('passwordInput');
+    const errorMsg = document.getElementById('passwordError');
+    const CORRECT_PW = 'STEAUDIT';
+    function grantAccess() {
+        overlay.style.display = 'none';
+        sessionStorage.setItem('zkfit_pw', 'ok');
+    }
+    if (sessionStorage.getItem('zkfit_pw') === 'ok') {
+        grantAccess();
+    } else {
+        overlay.style.display = 'flex';
+        form.onsubmit = function(e) {
+            e.preventDefault();
+            if (input.value === CORRECT_PW) {
+                grantAccess();
+            } else {
+                errorMsg.style.display = 'block';
+                input.value = '';
+                input.focus();
+            }
+        };
+    }
+    </script>
+
     <header>
         <h1>Z K FITNESS CLUB</h1>
         <p>Quick Navigation</p>
