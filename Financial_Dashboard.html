@@ -1,0 +1,184 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Financial Dashboard - Z K FITNESS CLUB</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                    color: #333;
+                }
+                .header {
+                    text-align: center;
+                    margin-bottom: 30px;
+                    background-color: #2c3e50;
+                    color: white;
+                    padding: 20px;
+                    border-radius: 5px;
+                }
+                h1 {
+                    margin-bottom: 5px;
+                }
+                h2 {
+                    font-weight: normal;
+                    margin-top: 0;
+                    color: #ecf0f1;
+                }
+                .dashboard {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+                    gap: 20px;
+                    margin-top: 20px;
+                }
+                .card {
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                    padding: 20px;
+                    transition: transform 0.3s ease;
+                }
+                .card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                }
+                .card h3 {
+                    color: #2c3e50;
+                    margin-top: 0;
+                    border-bottom: 1px solid #eee;
+                    padding-bottom: 10px;
+                }
+                .card img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                }
+                .summary {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    gap: 20px;
+                    margin-bottom: 30px;
+                }
+                .metric {
+                    background-color: white;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                    padding: 20px;
+                    text-align: center;
+                }
+                .metric h3 {
+                    margin-top: 0;
+                    color: #7f8c8d;
+                    font-size: 16px;
+                }
+                .metric .value {
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #2c3e50;
+                }
+                .metric .change {
+                    margin-top: 5px;
+                    font-size: 14px;
+                }
+                .positive {
+                    color: #27ae60;
+                }
+                .negative {
+                    color: #e74c3c;
+                }
+                .links {
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                }
+                .links a {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #3498db;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                }
+                .links a:hover {
+                    background-color: #2980b9;
+                }
+                .footer {
+                    margin-top: 50px;
+                    text-align: center;
+                    color: #7f8c8d;
+                    font-size: 14px;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Z K FITNESS CLUB</h1>
+                <h2>Financial Dashboard - December 31, 2024</h2>
+            </div>
+            
+            <div class="summary">
+        
+                <div class="metric">
+                    <h3>Total Revenue</h3>
+                    <div class="value ">QAR 105,028.33</div>
+                </div>
+            
+                <div class="metric">
+                    <h3>Net Income/(Loss)</h3>
+                    <div class="value negative">QAR -162,147.25</div>
+                </div>
+            
+                <div class="metric">
+                    <h3>Total Assets</h3>
+                    <div class="value ">QAR 102,948.33</div>
+                </div>
+            
+                <div class="metric">
+                    <h3>Total Liabilities</h3>
+                    <div class="value ">QAR 117,541.67</div>
+                </div>
+            
+            </div>
+            
+            <div class="dashboard">
+        
+                <div class="card">
+                    <h3>Expense Breakdown</h3>
+                    <img src="Visualizations/expense_breakdown.png" alt="Expense Breakdown">
+                </div>
+            
+                <div class="card">
+                    <h3>Asset Composition</h3>
+                    <img src="Visualizations/asset_composition.png" alt="Asset Composition">
+                </div>
+            
+                <div class="card">
+                    <h3>Financial Position Summary</h3>
+                    <img src="Visualizations/financial_summary.png" alt="Financial Position Summary">
+                </div>
+            
+                <div class="card">
+                    <h3>Profitability Analysis</h3>
+                    <img src="Visualizations/profitability_analysis.png" alt="Profitability Analysis">
+                </div>
+            
+            </div>
+            
+            <div class="links">
+                <a href="Balance_Sheet.html" target="_blank">View Balance Sheet</a>
+                <a href="Income_Statement.html" target="_blank">View Income Statement</a>
+                <a href="Cash_Flow_Statement.html" target="_blank">View Cash Flow Statement</a>
+            </div>
+            
+            <div class="footer">
+                <p>Generated on May 14, 2025 | Prepared in accordance with IFRS</p>
+            </div>
+        </body>
+        </html>
+        

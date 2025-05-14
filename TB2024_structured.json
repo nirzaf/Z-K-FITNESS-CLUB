@@ -1,0 +1,330 @@
+[
+  {
+    "account_name":"REVENUE",
+    "opening_balance":0,
+    "debit":0.0,
+    "credit":105028.3333333333,
+    "closing_balance":-105028.3333333333,
+    "classification":"Revenue"
+  },
+  {
+    "account_name":"AUDIT FEE",
+    "opening_balance":0,
+    "debit":1200.0,
+    "credit":0.0,
+    "closing_balance":1200.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"BANK CHARGES",
+    "opening_balance":0,
+    "debit":2680.0,
+    "credit":0.0,
+    "closing_balance":2680.0,
+    "classification":"Asset"
+  },
+  {
+    "account_name":"BUSINESS PROMOTION & ADVERTISING EXPENSE",
+    "opening_balance":0,
+    "debit":8255.95,
+    "credit":0.0,
+    "closing_balance":8255.95,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"CLEANING MATERIAL",
+    "opening_balance":0,
+    "debit":1360.5,
+    "credit":0.0,
+    "closing_balance":1360.5,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"COMPANY REGISTRATION EXPENSES",
+    "opening_balance":0,
+    "debit":3100.0,
+    "credit":0.0,
+    "closing_balance":3100.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"FUEL EXPENSE",
+    "opening_balance":0,
+    "debit":950.1,
+    "credit":0.0,
+    "closing_balance":950.1,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"INTERIOR WORKS",
+    "opening_balance":0,
+    "debit":21150.0,
+    "credit":0.0,
+    "closing_balance":21150.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"MAINTENANCE & REPAIRS EXPENSE",
+    "opening_balance":0,
+    "debit":7355.0,
+    "credit":0.0,
+    "closing_balance":7355.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"OTHER EMPLOYEE BENEFITS",
+    "opening_balance":0,
+    "debit":350.0,
+    "credit":0.0,
+    "closing_balance":350.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"OTHER EXPENSES",
+    "opening_balance":0,
+    "debit":1820.94,
+    "credit":0.0,
+    "closing_balance":1820.94,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"OTHER GOVERNMENT RELATED EXPENSES",
+    "opening_balance":0,
+    "debit":13575.0,
+    "credit":0.0,
+    "closing_balance":13575.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"OTHER LABOR CHARGES",
+    "opening_balance":0,
+    "debit":1980.0,
+    "credit":0.0,
+    "closing_balance":1980.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"OTHER TRAVELLING EXPENSES",
+    "opening_balance":0,
+    "debit":650.0,
+    "credit":0.0,
+    "closing_balance":650.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"REFRESHMENT",
+    "opening_balance":0,
+    "debit":792.0,
+    "credit":0.0,
+    "closing_balance":792.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"RENT",
+    "opening_balance":0,
+    "debit":52750.0,
+    "credit":0.0,
+    "closing_balance":52750.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"SALARIES AND ALLOWANCES",
+    "opening_balance":0,
+    "debit":111850.0,
+    "credit":0.0,
+    "closing_balance":111850.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"SPONSOR FEE",
+    "opening_balance":0,
+    "debit":20000.0,
+    "credit":0.0,
+    "closing_balance":20000.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"STATIONARY AND OTHER OFFICE SUPPLIES",
+    "opening_balance":0,
+    "debit":6032.25,
+    "credit":0.0,
+    "closing_balance":6032.25,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"UTILITIES EXPENSE",
+    "opening_balance":0,
+    "debit":728.58,
+    "credit":0.0,
+    "closing_balance":728.58,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"VISA &  IMMIGRATION EXP",
+    "opening_balance":0,
+    "debit":2287.0,
+    "credit":0.0,
+    "closing_balance":2287.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"WATER & ELECTRICITY",
+    "opening_balance":0,
+    "debit":7855.0,
+    "credit":0.0,
+    "closing_balance":7855.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"COMMISSION ON CARD PAYMENTS",
+    "opening_balance":0,
+    "debit":453.26,
+    "credit":0.0,
+    "closing_balance":453.26,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"CAPITAL",
+    "opening_balance":-10000,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":-10000.0,
+    "classification":"Equity"
+  },
+  {
+    "account_name":"RETAINED EARNINGS",
+    "opening_balance":62837,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":62837.0,
+    "classification":"Equity"
+  },
+  {
+    "account_name":"OTHER ASSETS - COST",
+    "opening_balance":0,
+    "debit":399.0,
+    "credit":0.0,
+    "closing_balance":399.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"ACCU. DEP- OTHER ASSETS",
+    "opening_balance":0,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":0.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"GYM EQUIPMENT - COST",
+    "opening_balance":62811,
+    "debit":8120.0,
+    "credit":0.0,
+    "closing_balance":70931.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"ACCU. DEP- GYM EQUIPMENT",
+    "opening_balance":-12562,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":-12562.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"INTANGIBLE ASSESTS",
+    "opening_balance":0,
+    "debit":580.1,
+    "credit":0.0,
+    "closing_balance":580.1,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"ACCU. AMORTIZATION- INTANGIBLE ASSESTS",
+    "opening_balance":0,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":0.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"FURNITURE & FIXTURES - COST",
+    "opening_balance":30870,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":30870.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"ACCU. DEP- FURNITURE & FIXTURES",
+    "opening_balance":-4631,
+    "debit":0.0,
+    "credit":0.0,
+    "closing_balance":-4631.0,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"DEPOSITS",
+    "opening_balance":0,
+    "debit":900.0,
+    "credit":0.0,
+    "closing_balance":900.0,
+    "classification":"Asset"
+  },
+  {
+    "account_name":"REVENUE RECEIVED IN ADVANCE",
+    "opening_balance":0,
+    "debit":0.0,
+    "credit":14041.6666666667,
+    "closing_balance":-14041.6666666667,
+    "classification":"Asset"
+  },
+  {
+    "account_name":"CASH",
+    "opening_balance":0,
+    "debit":79725.0,
+    "credit":79725.0,
+    "closing_balance":0.0,
+    "classification":"Asset"
+  },
+  {
+    "account_name":"CASH AT BANK",
+    "opening_balance":0,
+    "debit":70275.23,
+    "credit":57614.0,
+    "closing_balance":12661.23,
+    "classification":"Asset"
+  },
+  {
+    "account_name":"PARTNERS CURRENT AC",
+    "opening_balance":-129325,
+    "debit":4642.0,
+    "credit":75707.91,
+    "closing_balance":-200390.91,
+    "classification":"Expense"
+  },
+  {
+    "account_name":"ACCRUED SALARIES AND ALLOWANCES",
+    "opening_balance":0,
+    "debit":0.0,
+    "credit":100000.0,
+    "closing_balance":-100000.0,
+    "classification":"Liability"
+  },
+  {
+    "account_name":"LOAN FROM ALEX",
+    "opening_balance":0,
+    "debit":1500.0,
+    "credit":5000.0,
+    "closing_balance":-3500.0,
+    "classification":"Liability"
+  },
+  {
+    "account_name":"LOAN GIVEN TO PARTNERS - ERIKA",
+    "opening_balance":0,
+    "debit":5800.0,
+    "credit":2000.0,
+    "closing_balance":3800.0,
+    "classification":"Liability"
+  }
+]

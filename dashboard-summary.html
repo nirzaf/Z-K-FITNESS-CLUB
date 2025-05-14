@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z K FITNESS CLUB THREE HUNDRED SIXTY FIVE - Financial Statements 2024</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .financial-statement {
+            margin-bottom: 3rem;
+        }
+        .statement-header {
+            border-bottom: 2px solid #4a5568;
+            margin-bottom: 1.5rem;
+        }
+        .statement-title {
+            font-weight: bold;
+            color: #2d3748;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        .financial-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .financial-table th, .financial-table td {
+            padding: 0.5rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .financial-table th {
+            background-color: #f7fafc;
+            font-weight: bold;
+        }
+        .financial-table tr:hover {
+            background-color: #f7fafc;
+        }
+        .total-row {
+            font-weight: bold;
+            background-color: #edf2f7;
+        }
+        .subtotal-row {
+            font-weight: bold;
+            border-top: 1px solid #a0aec0;
+        }
+        .negative-value {
+            color: #e53e3e;
+        }
+        @media print {
+            .page-break {
+                page-break-before: always;
+            }
+            body {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white p-8">
+    <div class="max-w-5xl mx-auto">
+        <!-- Company Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-800">Z K FITNESS CLUB THREE HUNDRED SIXTY FIVE</h1>
+            <h2 class="text-xl font-semibold text-gray-600 mt-2">FINANCIAL STATEMENTS</h2>
+            <h3 class="text-lg text-gray-600">FOR THE YEAR ENDED 31 DECEMBER 2024</h3>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="mb-10 p-4 border border-gray-300 rounded-lg bg-gray-50">
+            <h2 class="text-xl font-bold mb-4 text-gray-700">Contents</h2>
+            <ul class="list-inside list-disc space-y-2">
+                <li><a href="#income-statement" class="text-blue-600 hover:underline">Income Statement</a></li>
+                <li><a href="#balance-sheet" class="text-blue-600 hover:underline">Balance Sheet</a></li>
+                <li><a href="#changes-in-equity" class="text-blue-600 hover:underline">Statement of Changes in Equity</a></li>
+                <li><a href="#cash-flow" class="text-blue-600 hover:underline">Cash Flow Statement</a></li>
+                <li><a href="#notes" class="text-blue-600 hover:underline">Notes to the Financial Statements</a></li>
+            </ul>
+        </div>
+
+        <!-- Income Statement -->
+        <div id="income-statement" class="financial-statement">
+            <div class="statement-header text-center">
+                <h2 class="text-2xl font-bold statement-title">INCOME STATEMENT</h2>
+                <p class="text-md">For the year ended 31 December 2024</p>
+            </div>
+
+            <div class="table-container">
+                <table class="financial-table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th class="text-right">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-semibold">Revenue</td>
+                            <td class="text-right">105,028.33</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td>Total Revenue</td>
+                            <td class="text-right">105,028.33</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="font-semibold pt-4">Expenses</td>
+                        </tr>
+                        <tr>
+                            <td>Salaries and Allowances</td>
+                            <td class="text-right">111,850.00</td>
+                        </tr>
+                        <tr>
+                            <td>Rent</td>
+                            <td class="text-right">52,750.00</td>
+                        </tr>
+                        <tr>
+                            <td>Interior Works</td>
+                            <td class="text-right">21,150.00</td>
+                        </tr>
+                        <tr>
+                            <td>Sponsor Fee</td>
+                            <td class="text-right">20,000.00</td>
+                        </tr>
+                        <tr>
+                            <td>Other Government Related Expenses</td>
+                            <td class="text-right">13,575.00</td>
+                        </tr>
+                        <tr>
+                            <td>Business Promotion & Advertising</td>
+                            <td class="text-right">8,255.95</td>
+                        </tr>
+                        <tr>
+                            <td>Water & Electricity</td>
+                            <td class="text-right">7,855.00</td>
+                        </tr>
+                        <tr>
+                            <td>Maintenance & Repairs</td>
+                            <td class="text-right">7,355.00</td>
+                        </tr>
+                        <tr>
+                            <td>Stationery and Office Supplies</td>
+                            <td class="text-right">6,032.25</td>
+                        </tr>
+                        <tr>
+                            <td>Company Registration Expenses</td>
+                            <td class="text-right">3,100.00</td>
+                        </tr>
+                        <tr>
+                            <td>Bank Charges</td>
+                            <td class="text-right">2,680.00</td>
+                        </tr>
+                        <tr>
+                            <td>Visa & Immigration Expenses</td>
+                            <td class="text-right">2,287.00</td>
+                        </tr>
+                        <tr>
+                            <td>Other Labor Charges</td>
+                            <td class="text-right">1,980.00</td>
+                        </tr>
+                        <tr>
+                            <td>Other Expenses</td>
+                            <td class="text-right">1,820.94</td>
+                        </tr>
+                        <tr>
+                            <td>Cleaning Material</td>
+                            <td class="text-right">1,360.50</td>
+                        </tr>
+                        <tr>
+                            <td>Audit Fee</td>
+                            <td class="text-right">1,200.00</td>
+                        </tr>
+                        <tr>
+                            <td>Fuel Expense</td>
+                            <td class="text-right">950.10</td>
+                        </tr>
+                        <tr>
+                            <td>Refreshment</td>
+                            <td class="text-right">792.00</td>
+                        </tr>
+                        <tr>
+                            <td>Utilities Expense</td>
+                            <td class="text-right">728.58</td>
+                        </tr>
+                        <tr>
+                            <td>Other Travelling Expenses</td>
+                            <td class="text-right">650.00</td>
+                        </tr>
+                        <tr>
+                            <td>Commission on Card Payments</td>
+                            <td class="text-right">453.26</td>
+                        </tr>
+                        <tr>
+                            <td>Other Employee Benefits</td>
+                            <td class="text-right">350.00</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td>Total Expenses</td>
+                            <td class="text-right">267,125.58</td>
+                        </tr>
+
+                        <tr class="total-row">
+                            <td>Net Loss</td>
+                            <td class="text-right negative-value">(162,097.25)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Balance Sheet -->
+        <div id="balance-sheet" class="financial-statement">
+            <div class="statement-header text-center">
+                <h2 class="text-2xl font-bold statement-title">BALANCE SHEET</h2>
+                <p class="text-md">As at 31 December 2024</p>
+            </div>
+
+            <div class="table-container">
+                <table class="financial-table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th class="text-right">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="font-semibold">ASSETS</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="pl-4 font-medium">Non-Current Assets</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Gym Equipment</td>
+                            <td class="text-right">70,931.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Less: Accumulated Depreciation</td>
+                            <td class="text-right">(12,562.00)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Furniture & Fixtures</td>
+                            <td class="text-right">30,870.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Less: Accumulated Depreciation</td>
+                            <td class="text-right">(4,631.00)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Intangible Assets</td>
+                            <td class="text-right">580.10</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Other Assets</td>
+                            <td class="text-right">399.00</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Total Non-Current Assets</td>
+                            <td class="text-right">85,587.10</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="pl-4 font-medium pt-4">Current Assets</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Cash at Bank</td>
+                            <td class="text-right">12,661.23</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Loan Given to Partners - Erika</td>
+                            <td class="text-right">3,800.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Deposits</td>
+                            <td class="text-right">900.00</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Total Current Assets</td>
+                            <td class="text-right">17,361.23</td>
+                        </tr>
+
+                        <tr class="total-row">
+                            <td>TOTAL ASSETS</td>
+                            <td class="text-right">102,948.33</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="font-semibold pt-6">LIABILITIES AND EQUITY</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="pl-4 font-medium">Current Liabilities</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Partners Current Account</td>
+                            <td class="text-right">200,390.91</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Accrued Salaries and Allowances</td>
+                            <td class="text-right">100,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Revenue Received in Advance</td>
+                            <td class="text-right">14,041.67</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Loan from Alex</td>
+                            <td class="text-right">3,500.00</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Total Current Liabilities</td>
+                            <td class="text-right">317,932.58</td>
+                        </tr>
+
+                        <tr class="subtotal-row">
+                            <td>TOTAL LIABILITIES</td>
+                            <td class="text-right">317,932.58</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="pl-4 font-medium pt-4">Equity</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Capital</td>
+                            <td class="text-right">10,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Retained Earnings</td>
+                            <td class="text-right negative-value">(62,837.00)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Current Year Loss</td>
+                            <td class="text-right negative-value">(162,097.25)</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Total Equity</td>
+                            <td class="text-right negative-value">(214,934.25)</td>
+                        </tr>
+
+                        <tr class="total-row">
+                            <td>TOTAL LIABILITIES AND EQUITY</td>
+                            <td class="text-right">102,998.33</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Statement of Changes in Equity -->
+        <div id="changes-in-equity" class="financial-statement">
+            <div class="statement-header text-center">
+                <h2 class="text-2xl font-bold statement-title">STATEMENT OF CHANGES IN EQUITY</h2>
+                <p class="text-md">For the year ended 31 December 2024</p>
+            </div>
+
+            <div class="table-container">
+                <table class="financial-table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th class="text-right">Capital</th>
+                            <th class="text-right">Retained Earnings</th>
+                            <th class="text-right">Total Equity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Balance as at 1 January 2024</td>
+                            <td class="text-right">10,000.00</td>
+                            <td class="text-right negative-value">(62,837.00)</td>
+                            <td class="text-right negative-value">(52,837.00)</td>
+                        </tr>
+                        <tr>
+                            <td>Net Loss for the year</td>
+                            <td class="text-right">-</td>
+                            <td class="text-right negative-value">(162,097.25)</td>
+                            <td class="text-right negative-value">(162,097.25)</td>
+                        </tr>
+                        <tr>
+                            <td>Other Changes</td>
+                            <td class="text-right">-</td>
+                            <td class="text-right">-</td>
+                            <td class="text-right">-</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td>Balance as at 31 December 2024</td>
+                            <td class="text-right">10,000.00</td>
+                            <td class="text-right negative-value">(224,934.25)</td>
+                            <td class="text-right negative-value">(214,934.25)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Cash Flow Statement -->
+        <div id="cash-flow" class="financial-statement">
+            <div class="statement-header text-center">
+                <h2 class="text-2xl font-bold statement-title">CASH FLOW STATEMENT</h2>
+                <p class="text-md">For the year ended 31 December 2024</p>
+                <p class="text-sm italic">(Indirect Method)</p>
+            </div>
+
+            <div class="table-container">
+                <table class="financial-table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th class="text-right">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="font-semibold">Cash Flows from Operating Activities</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Net Loss for the year</td>
+                            <td class="text-right negative-value">(162,097.25)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="pl-4 font-medium">Adjustments for:</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Depreciation and Amortization</td>
+                            <td class="text-right">-</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Operating Loss before Working Capital Changes</td>
+                            <td class="text-right negative-value">(162,097.25)</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="pl-4 font-medium">Working Capital Changes:</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Increase in Revenue Received in Advance</td>
+                            <td class="text-right">14,041.67</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Increase in Accrued Salaries and Allowances</td>
+                            <td class="text-right">100,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-8">Increase in Partners Current Account</td>
+                            <td class="text-right">200,390.91</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Net Cash from Operating Activities</td>
+                            <td class="text-right">152,335.33</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="font-semibold pt-4">Cash Flows from Investing Activities</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Purchase of Gym Equipment</td>
+                            <td class="text-right negative-value">(8,120.00)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Purchase of Other Assets</td>
+                            <td class="text-right negative-value">(399.00)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Purchase of Intangible Assets</td>
+                            <td class="text-right negative-value">(580.10)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Increase in Deposits</td>
+                            <td class="text-right negative-value">(900.00)</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Net Cash used in Investing Activities</td>
+                            <td class="text-right negative-value">(9,999.10)</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" class="font-semibold pt-4">Cash Flows from Financing Activities</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Loan from Alex</td>
+                            <td class="text-right">3,500.00</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Loan Given to Partners - Erika</td>
+                            <td class="text-right negative-value">(3,800.00)</td>
+                        </tr>
+                        <tr>
+                            <td class="pl-4">Initial Capital</td>
+                            <td class="text-right">10,000.00</td>
+                        </tr>
+                        <tr class="subtotal-row">
+                            <td class="pl-4">Net Cash from Financing Activities</td>
+                            <td class="text-right">9,700.00</td>
+                        </tr>
+
+                        <tr class="total-row">
+                            <td>Net Increase in Cash and Cash Equivalents</td>
+                            <td class="text-right">152,036.23</td>
+                        </tr>
+                        <tr>
+                            <td>Cash and Cash Equivalents at Beginning of Year</td>
+                            <td class="text-right">0.00</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td>Cash and Cash Equivalents at End of Year</td>
+                            <td class="text-right">152,036.23</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4 text-sm text-gray-600">
+                <p>Note: The Cash and Cash Equivalents at the end of the year consists of Cash at Bank (12,661.23). The difference with the calculated amount (152,036.23) represents cash movements not fully captured in the trial balance information.</p>
+            </div>
+        </div>
+
+        <!-- Notes to the Financial Statements -->
+        <div id="notes" class="financial-statement">
+            <div class="statement-header text-center">
+                <h2 class="text-2xl font-bold statement-title">NOTES TO THE FINANCIAL STATEMENTS</h2>
+                <p class="text-md">For the year ended 31 December 2024</p>
+            </div>
+
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">1. General Information</h3>
+                    <p>Z K FITNESS CLUB THREE HUNDRED SIXTY FIVE is a business entity operating in the fitness industry. These financial statements have been prepared for the year ended 31 December 2024.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">2. Basis of Preparation</h3>
+                    <p>These financial statements have been prepared in accordance with generally accepted accounting principles. The financial statements are presented in the local currency.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">3. Significant Accounting Policies</h3>
+                    <p><strong>3.1 Revenue Recognition:</strong> Revenue is recognized when the service is provided to customers.</p>
+                    <p><strong>3.2 Property, Plant and Equipment:</strong> Property, plant and equipment are stated at cost less accumulated depreciation.</p>
+                    <p><strong>3.3 Depreciation:</strong> Depreciation is calculated using the straight-line method to allocate their cost over their estimated useful lives.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">4. Revenue</h3>
+                    <p>Revenue represents income earned from fitness club memberships and related services.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">5. Property, Plant and Equipment</h3>
+                    <div class="table-container">
+                        <table class="financial-table">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th class="text-right">Cost</th>
+                                    <th class="text-right">Accumulated Depreciation</th>
+                                    <th class="text-right">Net Book Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Gym Equipment</td>
+                                    <td class="text-right">70,931.00</td>
+                                    <td class="text-right">(12,562.00)</td>
+                                    <td class="text-right">58,369.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Furniture & Fixtures</td>
+                                    <td class="text-right">30,870.00</td>
+                                    <td class="text-right">(4,631.00)</td>
+                                    <td class="text-right">26,239.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Other Assets</td>
+                                    <td class="text-right">399.00</td>
+                                    <td class="text-right">0.00</td>
+                                    <td class="text-right">399.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Intangible Assets</td>
+                                    <td class="text-right">580.10</td>
+                                    <td class="text-right">0.00</td>
+                                    <td class="text-right">580.10</td>
+                                </tr>
+                                <tr class="total-row">
+                                    <td>Total</td>
+                                    <td class="text-right">102,780.10</td>
+                                    <td class="text-right">(17,193.00)</td>
+                                    <td class="text-right">85,587.10</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">6. Going Concern</h3>
+                    <p>The financial statements show a net loss of 162,097.25 for the year and a negative equity position of 214,934.25 as at 31 December 2024. These conditions indicate the existence of a material uncertainty which may cast significant doubt about the entity's ability to continue as a going concern. The management is actively working on strategies to improve profitability and strengthen the financial position.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-12 pt-6 border-t border-gray-300 text-center text-gray-600 text-sm">
+            <p>These financial statements were prepared based on the trial balance provided. Any additional information needed for a complete assessment should be requested from management.</p>
+            <p class="mt-2">© 2024 Z K FITNESS CLUB THREE HUNDRED SIXTY FIVE. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
